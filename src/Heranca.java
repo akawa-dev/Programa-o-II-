@@ -12,7 +12,7 @@ class CarroEsportivo extends Car {
         velocidade += 50;
     }
 }
-public class Main {
+public class Heranca {
     public static void main(String[] args) {
         CarroEsportivo c = new CarroEsportivo();
         c.modelo = "Uno com escada";
