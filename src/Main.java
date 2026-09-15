@@ -1,4 +1,4 @@
-class Carro {
+class Car {
     String modelo;
     String cor;
     double velocidade;
@@ -7,7 +7,7 @@ class Carro {
         velocidade += 10;
     }
 }
-class CarroEsportivo extends Carro {
+class CarroEsportivo extends Car {
     void ativarTurbo() {
         velocidade += 50;
     }
